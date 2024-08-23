@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <input class="display">
+
+        <button class="gray-button" onclick="LimparTela()">AC</button>
+        <button class="gray-button" onclick="inverte('+/-')">+/-</button>
+        <button class="blue-button" onclick="AdicionarNumero('/')">/</button>
+        <button class="blue-button" onclick="AdicionarNumero('*')">*</button>
+        <button class="black-button" onclick="AdicionarNumero('7')">7</button>
+        <button class="black-button" onclick="AdicionarNumero('8')">8</button>
+        <button class="black-button" onclick="AdicionarNumero('9')">9</button>
+        <button class="blue-button" onclick="AdicionarNumero('-')">-</button>
+        <button class="black-button" onclick="AdicionarNumero('4')">4</button>
+        <button class="black-button" onclick="AdicionarNumero('5')">5</button>
+        <button class="black-button" onclick="AdicionarNumero('6')">6</button>
+        <button class="blue-button" onclick="AdicionarNumero('+')">+</button>
+        <button class="black-button" onclick="AdicionarNumero('1')">1</button>
+        <button class="black-button" onclick="AdicionarNumero('2')">2</button>
+        <button class="black-button" onclick="AdicionarNumero('3')">3</button>
+        <button class="blue-button equal" onclick="Calcular()">=</button>
+        <button class="black-button zero" onclick="AdicionarNumero('0')">0</button>
+        <button class="black-button" onclick="AdicionarNumero('.')">.</button>
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
